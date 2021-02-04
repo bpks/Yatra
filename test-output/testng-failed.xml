@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [yatra Test automtion regression suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.yatra.testlisteners.TesultsListener"/>
+    <listener class-name="com.qa.yatra.testlisteners.TestAllureListener"/>
+    <listener class-name="com.qa.yatra.testlisteners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" name="yatra Feature Testing - home page - chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.yatra.tests.ReviewBookingPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyreviewBookingTest"/>
+        </methods>
+      </class> <!-- com.qa.yatra.tests.ReviewBookingPageTest -->
+    </classes>
+  </test> <!-- yatra Feature Testing - home page - chrome(failed) -->
+</suite> <!-- Failed suite [yatra Test automtion regression suite] -->

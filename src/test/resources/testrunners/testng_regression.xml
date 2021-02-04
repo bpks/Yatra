@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="yatra Test automtion regression suite" verbose="1"
+	thread-count="3" parallel="tests">
+
+	<listeners>
+		<listener class-name="com.qa.yatra.testlisteners.TesultsListener" />
+		<listener class-name="com.qa.yatra.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.yatra.testlisteners.ExtentReportListener" />
+
+		<!-- <listener class-name="com.qa.yatra.testlisteners.pdfListener" /> -->
+	</listeners>
+<!-- 
+	<test name="yatra Feature Testing - Login page - chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.LoginPageTest" />
+		</classes>
+	
+	</test> -->
+
+	<test name="yatra Feature Testing - home page - chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.ReviewBookingPageTest" />
+		</classes>
+
+	</test>
+
+	<!-- <test name="yatra Feature Testing - Contacts Page - chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.ContactsPageTest" />
+		</classes>
+
+	</test>
+
+
+	<test name="yatra Feature Testing - login page - firefox">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.LoginPageTest" />
+		</classes>
+
+	</test>
+
+	<test name="yatra Feature Testing - home page - firefox">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.HomePageTest" />
+		</classes>
+
+	</test>
+
+	<test name="yatra Feature Testing - contacts page - firefox">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.qa.yatra.tests.ContactsPageTest" />
+		</classes>
+
+	</test>
+ -->
+
+
+
+
+</suite>

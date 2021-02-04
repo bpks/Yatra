@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="yatra Test automtion regression suite" duration-ms="23369" started-at="2021-02-04T22:26:48Z" finished-at="2021-02-04T22:27:12Z">
+    <groups>
+    </groups>
+    <test name="yatra Feature Testing - home page - chrome" duration-ms="23369" started-at="2021-02-04T22:26:48Z" finished-at="2021-02-04T22:27:12Z">
+      <class name="com.qa.yatra.tests.ReviewBookingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.yatra.tests.ReviewBookingPageTest@4bf324f9]" name="setUp" is-config="true" duration-ms="10746" started-at="2021-02-04T22:26:48Z" finished-at="2021-02-04T22:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyreviewBookingTest()[pri:0, instance:com.qa.yatra.tests.ReviewBookingPageTest@4bf324f9]" name="verifyreviewBookingTest" duration-ms="12331" started-at="2021-02-04T22:26:59Z" finished-at="2021-02-04T22:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyreviewBookingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.yatra.tests.ReviewBookingPageTest@4bf324f9]" name="tearDown" is-config="true" duration-ms="142" started-at="2021-02-04T22:27:12Z" finished-at="2021-02-04T22:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.yatra.tests.ReviewBookingPageTest -->
+    </test> <!-- yatra Feature Testing - home page - chrome -->
+  </suite> <!-- yatra Test automtion regression suite -->
+</testng-results>
